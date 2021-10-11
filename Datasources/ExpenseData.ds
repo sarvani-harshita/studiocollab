@@ -1,0 +1,33 @@
+{
+    "webServiceContent": [],
+    "filePath": "C:\\Studio_Workspace\\Workspace\\default_user\\Projects\\ExpenseClaim\\Datasources\\ExpenseData.ds",
+    "content": {
+        "datasourceType": 0,
+        "modifiedOn": "2021-10-06 10:08:20.228",
+        "datasourceProperties": {
+            "connectionMeta": {
+                "instance": "",
+                "port": "5432",
+                "host": "localhost",
+                "driverName": "Thin",
+                "connectionType": false,
+                "sid": ""
+            },
+            "password": "postgres",
+            "databaseName": "ExpenseClaim",
+            "jdbcString": "jdbc:postgresql://localhost:5432/ExpenseClaim",
+            "vendor": "PostgreSQL",
+            "poolSize": 5,
+            "isEncrypted": true,
+            "isJdbcUrl": false,
+            "datasourceId": "17bccd23-fa92-48ee-a34a-6c7ea6830767",
+            "active": 1,
+            "id": "3b0c9fc6-3985-40c3-b1b0-1af9be49095e",
+            "username": "postgres"
+        },
+        "name": "ExpenseData",
+        "id": "17bccd23-fa92-48ee-a34a-6c7ea6830767",
+        "applicationId": "a690b95b-05e4-422f-bc12-420f5891c7bf",
+        "createdOn": "2021-10-06 10:08:20.228"
+    }
+}
