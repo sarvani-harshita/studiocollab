@@ -468,7 +468,7 @@
             "id": "StartEvent_1aj67gl",
             "type": "bpmn:startEvent"
         },
-        "id": "Process_q04sl4",
+        "id": "Process_clx72e",
         "userTask": [
             {
                 "outgoing": "SequenceFlow_1fp6lwp",
@@ -587,6 +587,11 @@
                 "incoming": "SequenceFlow_n0j0y9",
                 "businessProp": {
                     "email-type": "text/html",
+                    "assignee-role": {
+                        "roleMeta": "",
+                        "roleName": "Employee",
+                        "actualData": "{\"name\":\"Employee.role\",\"type\":14,\"parentName\":\"App Roles\",\"location\":\"/ExpenseClaim/App Roles\",\"properties\":{},\"meta\":null,\"size\":0,\"errorMessage\":null,\"parentId\":null,\"projectId\":\"a690b95b-05e4-422f-bc12-420f5891c7bf\",\"referenceId\":\"a254e7c6-74bb-4d19-8c7a-316459f353f0\",\"namespaceId\":null,\"content\":null,\"id\":\"a452dcae-1717-4101-8eae-738a5a64b495\",\"createdOn\":\"2021-10-06T10:27:39.840-04:00\",\"modifiedOn\":\"2021-10-06T10:27:39.840-04:00\",\"modifiedBy\":null,\"createdBy\":null,\"rolePack\":null,\"contentAsBytes\":null,\"contentAsString\":\"\",\"buildProgress\":false}"
+                    },
                     "attribute-references": [],
                     "email-body": "Hi%20User,%0D%0A%0D%0A%20%0D%0A%0D%0AYour%20expense%20claim%20with%20ID%20-%20claimid%20has%20been%20rejected.%0D%0A%0D%0A%20%0D%0A%0D%0ARegards,%0D%0A%0D%0Amanager",
                     "fromUser": "\"Manager\"",
@@ -607,8 +612,7 @@
                         }
                     ],
                     "notify-type": "Message Only",
-                    "assignee-type": "Expression",
-                    "assignee-exp": "empfirstname"
+                    "assignee-type": "Role"
                 },
                 "name": "Notify Employee Reject",
                 "id": "UserTask_rtsjx8",
@@ -618,7 +622,7 @@
         ]
     },
     "BPMNDiagram": {
-        "bpmnElement": "Process_q04sl4",
+        "bpmnElement": "Process_clx72e",
         "BPMNPlane": {
             "BPMNShape": [
                 {
@@ -720,11 +724,11 @@
                 {
                     "bpmnElement": "UserTask_i4z666",
                     "Bounds": {
-                        "cx": 828.0000200751617,
-                        "cy": 169.00001279283867,
-                        "x": 751.0200243476227,
+                        "cx": 814.0000000480011,
+                        "cy": 164.9999999182354,
+                        "x": 737.020004320462,
                         "width": 153.95999145507812,
-                        "y": 130.83501187731133,
+                        "y": 126.83499900270806,
                         "height": 76.33000183105469
                     },
                     "id": "UserTask_i4z666_ve"
@@ -850,26 +854,26 @@
                             "y": "281.0000040690102"
                         },
                         {
-                            "x": "715.010017172654",
+                            "x": "708.0100071590737",
                             "y": "281.0000040690102"
                         },
                         {
-                            "x": "715.010017172654",
-                            "y": "169.00001187731132"
+                            "x": "708.0100071590737",
+                            "y": "164.99999900270805"
                         },
                         {
-                            "x": "751.0200243476227",
-                            "y": "169.00001187731132"
+                            "x": "737.020004320462",
+                            "y": "164.99999900270805"
                         }
                     ],
                     "bpmnElement": "SequenceFlow_126m37q",
                     "id": "SequenceFlow_126m37q_ve",
                     "BPMNLabel": {"Bounds": {
-                        "cx": 735,
-                        "cy": 202,
-                        "x": 695,
+                        "cx": 728,
+                        "cy": 200,
+                        "x": 688,
                         "width": 80,
-                        "y": 190,
+                        "y": 188,
                         "height": 24
                     }}
                 },
@@ -906,15 +910,15 @@
                 {
                     "waypoint": [
                         {
-                            "x": "904.9800243476227",
-                            "y": "169.00001187731132"
+                            "x": "890.9800043204621",
+                            "y": "164.99999900270805"
                         },
                         {
-                            "x": "969.4900203913046",
-                            "y": "169.00001187731132"
+                            "x": "962.4900103777243",
+                            "y": "164.99999900270805"
                         },
                         {
-                            "x": "969.4900203913046",
+                            "x": "962.4900103777243",
                             "y": "281.0000041802722"
                         },
                         {
@@ -949,7 +953,7 @@
                 }
             ]
         },
-        "id": "Process_q04sl4_ve"
+        "id": "Process_clx72e_ve"
     },
     "collaboration": {}
 }
